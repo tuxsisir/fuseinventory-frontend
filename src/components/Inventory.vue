@@ -3,7 +3,7 @@
     <v-row>
       <v-col cols="12">
         <h4 class="display-3 grey--text text--darken-2 mb-4">
-          Welcome to <span class="blue--text font-weight-bold">fuseInventory</span>
+          <span class="blue--text font-weight-bold">fuseInventory</span>
         </h4>
 
       </v-col>
@@ -57,6 +57,18 @@
             Logs
           </v-card-title>
           <v-divider></v-divider>
+          <v-card-text>
+            <div v-for="n in 4" :key="n" class="d-flex my-2">
+              <v-avatar>
+                <v-img :src="`/images/male.png`">
+                </v-img>
+              </v-avatar>
+              <div class="mx-2">
+                User added inventory.
+                <span class="grey--text subtitle-1">(Inventory Section)</span>
+              </div>
+            </div>
+          </v-card-text>
         </v-card>
       </v-col>
       <v-col cols="12">
