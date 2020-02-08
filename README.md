@@ -19,3 +19,8 @@ npm run build
 ```
 npm run lint
 ```
+
+### Run Backend @port
+```
+localhost:9999
+```
